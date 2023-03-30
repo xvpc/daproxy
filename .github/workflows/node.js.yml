@@ -1,6 +1,0 @@
-on: push
-jobs:
- cypress-ua-run:
-   name: Cypress UA test
-   runs-on: [ self-hosted, Companyname ]
-   timeout-minutes: 20
