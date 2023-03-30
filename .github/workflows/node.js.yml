@@ -8,5 +8,5 @@ jobs:
       - run: npm --version
       - uses: actions/checkout@v3
       - run: npm install
-      - run: ip config
+      - run: ipconfig
       - run: npm start -- --tls
